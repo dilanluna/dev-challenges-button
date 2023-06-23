@@ -1,0 +1,70 @@
+{
+	"name": "dev-challenges-button",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"main": "dist/dev-challenges-button.umd.cjs",
+	"module": "dist/dev-challenges-button.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"test": "vitest",
+		"build": "tsc && vite build",
+		"lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build",
+		"format": "prettier --write **/*.{js,jsx,ts,tsx,html,css,scss,sass,less,md,mdx}"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dilanluna/dev-challenges-button.git"
+	},
+	"keywords": [],
+	"author": "Dylan Luna <me@dilanluna.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dilanluna/dev-challenges-button/issues"
+	},
+	"homepage": "https://github.com/dilanluna/dev-challenges-button#readme",
+	"dependencies": {
+		"clsx": "^1.2.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"peerDependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@storybook/addon-essentials": "^7.0.23",
+		"@storybook/addon-interactions": "^7.0.23",
+		"@storybook/addon-links": "^7.0.23",
+		"@storybook/blocks": "^7.0.23",
+		"@storybook/react": "^7.0.23",
+		"@storybook/react-vite": "^7.0.23",
+		"@storybook/testing-library": "^0.0.14-next.2",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^14.0.0",
+		"@types/react": "^18.0.37",
+		"@types/react-dom": "^18.0.11",
+		"@typescript-eslint/eslint-plugin": "^5.59.0",
+		"@typescript-eslint/parser": "^5.59.0",
+		"@vitejs/plugin-react": "^4.0.0",
+		"eslint": "^8.38.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.3.4",
+		"eslint-plugin-storybook": "^0.6.12",
+		"jsdom": "^22.1.0",
+		"prettier": "^2.8.8",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"storybook": "^7.0.23",
+		"typescript": "^5.0.2",
+		"vite": "^4.3.9",
+		"vite-plugin-dts": "^2.3.0",
+		"vitest": "^0.32.2"
+	}
+}
