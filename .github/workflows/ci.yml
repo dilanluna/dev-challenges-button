@@ -2,7 +2,7 @@ name: CI
 
 on:
   pull_request:
-	workflow_dispatch:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies 📦
         run: npm install
 
-			- name: Format ✨
-				run: npm run format
+      - name: Format ✨
+        run: npm run format
 
       - name: Test 🧪
         run: npm test
