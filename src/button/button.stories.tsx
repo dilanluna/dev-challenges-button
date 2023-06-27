@@ -6,17 +6,38 @@ const meta = {
 	component: Button,
 	tags: ['autodocs'],
 	argTypes: {
-		size: {
-			control: 'select',
-			options: ['sm', 'md', 'lg'],
+		label: {
+			description: 'Button content',
 		},
 		color: {
 			control: 'select',
 			options: ['primary', 'secundary', 'danger'],
+			description: 'Button colors',
+		},
+		size: {
+			control: 'select',
+			options: ['sm', 'md', 'lg'],
+			description: 'Button sizes',
+			table: {
+				defaultValue: { summary: 'md' },
+			},
 		},
 		variant: {
 			control: 'select',
 			options: ['outline', 'text'],
+			description: 'Button types',
+		},
+		disableShadow: {
+			description: 'Disable shadow',
+			table: {
+				defaultValue: { summary: false },
+			},
+		},
+		startIcon: {
+			description: 'Left icon',
+		},
+		endIcon: {
+			description: 'Right icon',
 		},
 	},
 } satisfies Meta<typeof Button>;
