@@ -4,17 +4,42 @@ declare const meta: {
     component: import("react").ForwardRefExoticComponent<import("react").ButtonHTMLAttributes<HTMLButtonElement> & import("./button").ButtonProps & import("react").RefAttributes<HTMLButtonElement>>;
     tags: string[];
     argTypes: {
-        size: {
-            control: string;
-            options: string[];
+        label: {
+            description: string;
         };
         color: {
             control: string;
             options: string[];
+            description: string;
+        };
+        size: {
+            control: string;
+            options: string[];
+            description: string;
+            table: {
+                defaultValue: {
+                    summary: string;
+                };
+            };
         };
         variant: {
             control: string;
             options: string[];
+            description: string;
+        };
+        disableShadow: {
+            description: string;
+            table: {
+                defaultValue: {
+                    summary: boolean;
+                };
+            };
+        };
+        startIcon: {
+            description: string;
+        };
+        endIcon: {
+            description: string;
         };
     };
 };
