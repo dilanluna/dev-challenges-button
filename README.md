@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/dilanluna/dev-challenges-button/assets/102081703/b2ca8d3f-2646-469a-a4e4-1f9620f5ef3a)
+![screenshot](https://github.com/dilanluna/dev-challenges-button/assets/102081703/38fd5920-7a09-42d2-936b-834b8b098cd5)
 
 ### Built With
 
